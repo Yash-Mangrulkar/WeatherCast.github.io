@@ -1,0 +1,91 @@
+
+  @font-face {
+    font-family: 'Gotham';
+    src: url('fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Gotham-Bold.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Gotham-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('fonts/Gotham-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+     font-weight:600;
+     font-style:oblique;
+     }
+     
+     img.bg {
+        /* Set rules to fill background */
+        min-height: 100%;
+        min-width: 1024px;
+          
+        /* Set up proportionate scaling */
+        width: 100%;
+        height: auto;
+          
+        /* Set up positioning */
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+      
+      @media screen and (max-width: 1024px) { /* Specific to this particular image */
+        img.bg {
+          left: 50%;
+          margin-left: -512px;   /* 50% */
+        }
+      }
+      
+.navbar navbar-expand-lg bg-body-tertiary{
+    background-color: rgb(201, 136, 56);
+    
+}
+.navbar-nav > li{
+    padding-left:0px;
+    padding-right:30px;
+    
+  }
+  nav
+  {
+     position: fixed;
+     top: 0px;
+  }
+
+
+  .container{
+    margin-top: -10em;
+    margin-left: -0.5em;
+    margin-bottom: 5em;
+    
+
+  }
+
+  .aboutme{
+    margin-bottom: 20em;
+  }
+  .form{
+
+    margin-top: 10em;margin-left: 17em;margin-bottom:8em;padding: 3em;border-radius: 1em;height: 10em;width: 50em;
+    /* From https://css.glass */
+background: rgba(122, 109, 109, 0.02);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.5px);
+-webkit-backdrop-filter: blur(10.5px);
+border: 1px solid rgba(122, 109, 109, 0.05);
+  }
+
+  .form-group{
+    padding-bottom: 0.5em;
+  }
+  .feedbackform{
+    background-color:rgb(28, 88, 207);
+    border-radius: 1em;
+    max-width: 60%;
+    text-align: center;
+    margin-left: 17em;
+
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.36);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.8px);
+-webkit-backdrop-filter: blur(8.8px);
+border: 1px solid rgba(255, 255, 255, 0.06);
+  }
